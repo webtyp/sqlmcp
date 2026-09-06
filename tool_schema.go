@@ -1,11 +1,11 @@
 package sqlmcp
 
 import (
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/ddl"
-	"github.com/tinywasm/fmt"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/orm"
+	"webtyp.com/context"
+	"webtyp.com/ddl"
+	"webtyp.com/fmt"
+	"webtyp.com/mcp"
+	"webtyp.com/orm"
 )
 
 func schemaTool(db *orm.DB) mcp.Tool {

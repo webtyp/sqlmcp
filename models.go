@@ -1,6 +1,6 @@
 package sqlmcp
 
-import "github.com/tinywasm/model"
+import "webtyp.com/model"
 
 var sqlPermitted = model.Permitted{
 	Letters:   true,

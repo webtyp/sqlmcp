@@ -4,12 +4,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/ddl"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/model"
-	"github.com/tinywasm/orm"
-	"github.com/tinywasm/storage"
+	"webtyp.com/context"
+	"webtyp.com/ddl"
+	"webtyp.com/mcp"
+	"webtyp.com/model"
+	"webtyp.com/orm"
+	"webtyp.com/storage"
 )
 
 func TestDaemonProvider_Tools(t *testing.T) {

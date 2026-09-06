@@ -4,14 +4,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/json"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/model"
+	"webtyp.com/context"
+	"webtyp.com/json"
+	"webtyp.com/mcp"
+	"webtyp.com/model"
 )
 
 // encodeMCPMessage serializes an mcp.JSONRPCMessage to its wire JSON using
-// tinywasm/json (never stdlib), exactly as the transport emits it.
+// webtyp/json (never stdlib), exactly as the transport emits it.
 func encodeMCPMessage(resp mcp.JSONRPCMessage) string {
 	var b []byte
 	if f, ok := resp.(model.Encodable); ok {

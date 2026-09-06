@@ -1,11 +1,11 @@
 package sqlmcp
 
 import (
-	"github.com/tinywasm/ddl"
-	"github.com/tinywasm/fmt"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/orm"
-	"github.com/tinywasm/storage"
+	"webtyp.com/ddl"
+	"webtyp.com/fmt"
+	"webtyp.com/mcp"
+	"webtyp.com/orm"
+	"webtyp.com/storage"
 )
 
 // ExportFunc produces the DDL SQL for the currently synced schema. Supplied by the caller

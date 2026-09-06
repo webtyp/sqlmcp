@@ -5,9 +5,9 @@ package sqlmcp
 import (
 	"sync"
 
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/orm"
+	"webtyp.com/context"
+	"webtyp.com/mcp"
+	"webtyp.com/orm"
 )
 
 // DaemonProvider implements mcp.ToolProvider for the MCP daemon.

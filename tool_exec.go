@@ -1,10 +1,10 @@
 package sqlmcp
 
 import (
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/fmt"
-	"github.com/tinywasm/mcp"
-	"github.com/tinywasm/orm"
+	"webtyp.com/context"
+	"webtyp.com/fmt"
+	"webtyp.com/mcp"
+	"webtyp.com/orm"
 )
 
 func execTool(db *orm.DB) mcp.Tool {

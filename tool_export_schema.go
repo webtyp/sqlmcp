@@ -1,9 +1,9 @@
 package sqlmcp
 
 import (
-	"github.com/tinywasm/context"
-	"github.com/tinywasm/fmt"
-	"github.com/tinywasm/mcp"
+	"webtyp.com/context"
+	"webtyp.com/fmt"
+	"webtyp.com/mcp"
 )
 
 func exportTool(exportFn ExportFunc) mcp.Tool {
