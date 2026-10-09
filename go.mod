@@ -10,7 +10,7 @@ require (
 	webtyp.com/mcp v0.2.40
 	webtyp.com/model v0.2.2
 	webtyp.com/orm v0.12.8
-	webtyp.com/storage v0.1.3
+	webtyp.com/storage v0.1.4
 )
 
 require (
