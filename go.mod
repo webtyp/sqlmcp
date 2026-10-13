@@ -7,7 +7,7 @@ require (
 	webtyp.com/ddl v0.0.15
 	webtyp.com/fmt v1.0.0
 	webtyp.com/json v0.5.29
-	webtyp.com/mcp v0.3.3
+	webtyp.com/mcp v0.3.4
 	webtyp.com/model v0.2.3
 	webtyp.com/orm v0.12.8
 	webtyp.com/storage v0.1.4
@@ -18,7 +18,7 @@ require (
 	webtyp.com/escape v0.1.0 // indirect
 	webtyp.com/fetch v0.1.29 // indirect
 	webtyp.com/filepath v0.1.0 // indirect
-	webtyp.com/router v0.4.2 // indirect
+	webtyp.com/router v0.4.3 // indirect
 	webtyp.com/time v0.5.7 // indirect
 	webtyp.com/unixid v0.3.0 // indirect
 )
