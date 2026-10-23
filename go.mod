@@ -8,7 +8,7 @@ require (
 	webtyp.com/fmt v1.0.0
 	webtyp.com/json v0.5.29
 	webtyp.com/mcp v0.3.4
-	webtyp.com/model v0.2.5
+	webtyp.com/model v0.2.6
 	webtyp.com/orm v0.12.8
 	webtyp.com/storage v0.1.8
 )
