@@ -19,7 +19,7 @@ require (
 	webtyp.com/escape v0.1.0 // indirect
 	webtyp.com/fetch v0.1.29 // indirect
 	webtyp.com/filepath v0.1.0 // indirect
-	webtyp.com/router v0.4.15 // indirect
+	webtyp.com/router v0.4.16 // indirect
 	webtyp.com/time v0.6.2 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
 )
