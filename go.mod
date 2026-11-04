@@ -20,6 +20,6 @@ require (
 	webtyp.com/fetch v0.1.29 // indirect
 	webtyp.com/filepath v0.1.0 // indirect
 	webtyp.com/router v0.4.17 // indirect
-	webtyp.com/time v0.6.2 // indirect
+	webtyp.com/time v0.6.4 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
 )
