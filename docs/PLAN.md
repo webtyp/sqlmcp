@@ -2,8 +2,10 @@
 PLAN: "refactor!: Exec reports rows affected and a duplicate key (storage.Result, storage.Duplicate) — sqlmcp"
 EXECUTOR: jules
 REVIEWER: none
-STATUS: running
+STATUS: review
 SESSION: 11897594758679341353
+PR: https://github.com/webtyp/sqlmcp/pull/2
+REVIEWED_COMMIT: fdaef322b927f9eac73878f19315841e27337720
 ---
 
 > Read AGENTS.md at the repo root before any change.

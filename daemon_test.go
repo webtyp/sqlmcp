@@ -49,9 +49,9 @@ type mockConn struct {
 	execCalled  bool
 }
 
-func (m *mockConn) Exec(query string, args ...any) error {
+func (m *mockConn) Exec(query string, args ...any) (storage.Result, error) {
 	m.execCalled = true
-	return nil
+	return storage.Affected(0), nil
 }
 
 func (m *mockConn) QueryRow(query string, args ...any) storage.Scanner {
