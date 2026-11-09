@@ -28,8 +28,9 @@ func executeExec(db *orm.DB, req mcp.Request) (*mcp.Result, error) {
 	if err := req.Bind(&args); err != nil {
 		return nil, err
 	}
-	if err := db.RawConn().Exec(args.Sql); err != nil {
+	res, err := db.RawConn().Exec(args.Sql)
+	if err != nil {
 		return nil, err
 	}
-	return mcp.Text("OK"), nil
+	return mcp.Text(fmt.Sprintf("OK, %d rows affected", res.RowsAffected())), nil
 }
