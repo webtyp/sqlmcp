@@ -2,6 +2,8 @@
 PLAN: "refactor!: Exec reports rows affected and a duplicate key (storage.Result, storage.Duplicate) — sqlmcp"
 EXECUTOR: jules
 REVIEWER: none
+STATUS: running
+SESSION: 11897594758679341353
 ---
 
 > Read AGENTS.md at the repo root before any change.
