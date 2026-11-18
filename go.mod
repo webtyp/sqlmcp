@@ -4,13 +4,13 @@ go 1.26.8
 
 require (
 	webtyp.com/context v0.0.23
-	webtyp.com/ddl v0.0.49
-	webtyp.com/fmt v1.0.2
+	webtyp.com/ddl v0.0.59
+	webtyp.com/fmt v1.0.3
 	webtyp.com/json v0.5.40
 	webtyp.com/mcp v0.3.28
-	webtyp.com/model v0.2.23
+	webtyp.com/model v0.2.24
 	webtyp.com/orm v0.12.37
-	webtyp.com/storage v0.2.3
+	webtyp.com/storage v0.2.8
 )
 
 require (
