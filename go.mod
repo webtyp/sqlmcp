@@ -8,7 +8,7 @@ require (
 	webtyp.com/fmt v1.0.3
 	webtyp.com/json v0.5.40
 	webtyp.com/mcp v0.3.28
-	webtyp.com/model v0.2.25
+	webtyp.com/model v0.2.26
 	webtyp.com/orm v0.12.37
 	webtyp.com/storage v0.2.8
 )
@@ -23,7 +23,7 @@ require (
 	webtyp.com/fetch v0.1.30 // indirect
 	webtyp.com/filepath v0.1.3 // indirect
 	webtyp.com/msgtype v0.1.2 // indirect
-	webtyp.com/router v0.5.0 // indirect
+	webtyp.com/router v0.5.9 // indirect
 	webtyp.com/securityevent v0.0.2 // indirect
 	webtyp.com/time v0.6.7 // indirect
 	webtyp.com/unixid v0.3.1 // indirect
